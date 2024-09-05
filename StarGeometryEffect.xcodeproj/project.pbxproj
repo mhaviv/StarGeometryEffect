@@ -14,6 +14,7 @@
 		B228BC572C89700E00616C3D /* GoldStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B228BC4E2C89700E00616C3D /* GoldStar.swift */; };
 		B228BC582C89700E00616C3D /* StarGeometryEffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B228BC502C89700E00616C3D /* StarGeometryEffectApp.swift */; };
 		B228BC592C89700E00616C3D /* StarCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B228BC512C89700E00616C3D /* StarCardView.swift */; };
+		B228BC5B2C8975C900616C3D /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B228BC5A2C8975C900616C3D /* CloseButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		B228BC4F2C89700E00616C3D /* StarGeometryEffect.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = StarGeometryEffect.entitlements; sourceTree = "<group>"; };
 		B228BC502C89700E00616C3D /* StarGeometryEffectApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarGeometryEffectApp.swift; sourceTree = "<group>"; };
 		B228BC512C89700E00616C3D /* StarCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarCardView.swift; sourceTree = "<group>"; };
+		B228BC5A2C8975C900616C3D /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
 		B236A95A2C893DCB003FAB24 /* StarGeometryEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarGeometryEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -58,6 +60,7 @@
 				B228BC512C89700E00616C3D /* StarCardView.swift */,
 				B228BC4F2C89700E00616C3D /* StarGeometryEffect.entitlements */,
 				B228BC502C89700E00616C3D /* StarGeometryEffectApp.swift */,
+				B228BC5A2C8975C900616C3D /* CloseButton.swift */,
 			);
 			path = StarGeometryEffect;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B228BC5B2C8975C900616C3D /* CloseButton.swift in Sources */,
 				B228BC572C89700E00616C3D /* GoldStar.swift in Sources */,
 				B228BC562C89700E00616C3D /* StarFloatingButton.swift in Sources */,
 				B228BC552C89700E00616C3D /* ContentView.swift in Sources */,
