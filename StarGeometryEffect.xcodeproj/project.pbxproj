@@ -278,10 +278,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MatchedGeometryEffectSampleApp/MatchedGeometryEffectSampleApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = StarGeometryEffect/StarGeometryEffect.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MatchedGeometryEffectSampleApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"StarGeometryEffect/Preview Content\"";
 				DEVELOPMENT_TEAM = XM288BRHM4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -301,7 +301,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.michael.haviv.MatchedGeometryEffectSampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michael.haviv.StarGeometryEffect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -317,10 +317,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MatchedGeometryEffectSampleApp/MatchedGeometryEffectSampleApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = StarGeometryEffect/StarGeometryEffect.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MatchedGeometryEffectSampleApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"StarGeometryEffect/Preview Content\"";
 				DEVELOPMENT_TEAM = XM288BRHM4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -340,7 +340,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.michael.haviv.MatchedGeometryEffectSampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michael.haviv.StarGeometryEffect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
