@@ -1,4 +1,4 @@
-# StarGeometryEffect
+# ⭐️ StarGeometryEffect
 
 **StarGeometryEffect** is a SwiftUI project demonstrating the use of `MatchedGeometryEffect` for smooth transitions between views, enhanced with a 3D rotating star animation inspired by the classic Super Mario star. This project showcases the power of SwiftUI’s animation capabilities, custom shapes, and interactive transitions.
 
