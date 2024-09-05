@@ -36,7 +36,7 @@ struct StarFloatingButton: View {
                                 .fill(LinearGradient(gradient: Gradient(colors: [Color.purple, Color.indigo]), startPoint: .topLeading, endPoint: .bottomTrailing))
                                 .frame(width: 70, height: 70)
                                 .shadow(radius: 10)
-                                .matchedGeometryEffect(id: "background", in: animation)
+                                .matchedGeometryEffect(id: "cardTransition", in: animation)
 
                             // Star icon inside the floating button.
                             GoldStar()

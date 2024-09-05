@@ -19,7 +19,7 @@ struct StarCardView: View {
             // Card
             RoundedRectangle(cornerRadius: 25)
                 .fill(LinearGradient(gradient: Gradient(colors: [Color.purple, Color.indigo]), startPoint: .topLeading, endPoint: .bottomTrailing))
-                .matchedGeometryEffect(id: "background", in: animation)
+                .matchedGeometryEffect(id: "cardTransition", in: animation)
                 .frame(width: 300, height: 300)
                 .shadow(radius: 20)
 

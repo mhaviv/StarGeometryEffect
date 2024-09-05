@@ -12,6 +12,7 @@ import SwiftUI
 struct ContentView: View {
     @State private var isExpanded = false
     @State private var rotationDegree: Double = 0
+    /// Use Namespace to link related views for smooth transitions with `MatchedGeometryEffect`. We link GoldStar in both views that leverage it
     @Namespace private var animation
     @Environment(\.colorScheme) var colorScheme
 
