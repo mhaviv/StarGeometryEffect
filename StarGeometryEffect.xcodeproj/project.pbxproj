@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B236A95E2C893DCB003FAB24 /* MatchedGeometryEffectSampleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B236A95D2C893DCB003FAB24 /* MatchedGeometryEffectSampleAppApp.swift */; };
-		B236A9602C893DCB003FAB24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B236A95F2C893DCB003FAB24 /* ContentView.swift */; };
-		B236A9622C893DCC003FAB24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B236A9612C893DCC003FAB24 /* Assets.xcassets */; };
-		B236A9662C893DCC003FAB24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B236A9652C893DCC003FAB24 /* Preview Assets.xcassets */; };
+		B228BC532C89700E00616C3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B228BC492C89700E00616C3D /* Preview Assets.xcassets */; };
+		B228BC542C89700E00616C3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B228BC4B2C89700E00616C3D /* Assets.xcassets */; };
+		B228BC552C89700E00616C3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B228BC4C2C89700E00616C3D /* ContentView.swift */; };
+		B228BC562C89700E00616C3D /* StarFloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B228BC4D2C89700E00616C3D /* StarFloatingButton.swift */; };
+		B228BC572C89700E00616C3D /* GoldStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B228BC4E2C89700E00616C3D /* GoldStar.swift */; };
+		B228BC582C89700E00616C3D /* StarGeometryEffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B228BC502C89700E00616C3D /* StarGeometryEffectApp.swift */; };
+		B228BC592C89700E00616C3D /* StarCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B228BC512C89700E00616C3D /* StarCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B236A95A2C893DCB003FAB24 /* MatchedGeometryEffectSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchedGeometryEffectSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B236A95D2C893DCB003FAB24 /* MatchedGeometryEffectSampleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectSampleAppApp.swift; sourceTree = "<group>"; };
-		B236A95F2C893DCB003FAB24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B236A9612C893DCC003FAB24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B236A9632C893DCC003FAB24 /* MatchedGeometryEffectSampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MatchedGeometryEffectSampleApp.entitlements; sourceTree = "<group>"; };
-		B236A9652C893DCC003FAB24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B228BC492C89700E00616C3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B228BC4B2C89700E00616C3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B228BC4C2C89700E00616C3D /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B228BC4D2C89700E00616C3D /* StarFloatingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarFloatingButton.swift; sourceTree = "<group>"; };
+		B228BC4E2C89700E00616C3D /* GoldStar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoldStar.swift; sourceTree = "<group>"; };
+		B228BC4F2C89700E00616C3D /* StarGeometryEffect.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = StarGeometryEffect.entitlements; sourceTree = "<group>"; };
+		B228BC502C89700E00616C3D /* StarGeometryEffectApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarGeometryEffectApp.swift; sourceTree = "<group>"; };
+		B228BC512C89700E00616C3D /* StarCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarCardView.swift; sourceTree = "<group>"; };
+		B236A95A2C893DCB003FAB24 /* StarGeometryEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarGeometryEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,10 +39,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B228BC4A2C89700E00616C3D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B228BC492C89700E00616C3D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B228BC522C89700E00616C3D /* StarGeometryEffect */ = {
+			isa = PBXGroup;
+			children = (
+				B228BC4A2C89700E00616C3D /* Preview Content */,
+				B228BC4B2C89700E00616C3D /* Assets.xcassets */,
+				B228BC4C2C89700E00616C3D /* ContentView.swift */,
+				B228BC4D2C89700E00616C3D /* StarFloatingButton.swift */,
+				B228BC4E2C89700E00616C3D /* GoldStar.swift */,
+				B228BC512C89700E00616C3D /* StarCardView.swift */,
+				B228BC4F2C89700E00616C3D /* StarGeometryEffect.entitlements */,
+				B228BC502C89700E00616C3D /* StarGeometryEffectApp.swift */,
+			);
+			path = StarGeometryEffect;
+			sourceTree = "<group>";
+		};
 		B236A9512C893DCB003FAB24 = {
 			isa = PBXGroup;
 			children = (
-				B236A95C2C893DCB003FAB24 /* MatchedGeometryEffectSampleApp */,
+				B228BC522C89700E00616C3D /* StarGeometryEffect */,
 				B236A95B2C893DCB003FAB24 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,37 +73,17 @@
 		B236A95B2C893DCB003FAB24 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B236A95A2C893DCB003FAB24 /* MatchedGeometryEffectSampleApp.app */,
+				B236A95A2C893DCB003FAB24 /* StarGeometryEffect.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B236A95C2C893DCB003FAB24 /* MatchedGeometryEffectSampleApp */ = {
-			isa = PBXGroup;
-			children = (
-				B236A95D2C893DCB003FAB24 /* MatchedGeometryEffectSampleAppApp.swift */,
-				B236A95F2C893DCB003FAB24 /* ContentView.swift */,
-				B236A9612C893DCC003FAB24 /* Assets.xcassets */,
-				B236A9632C893DCC003FAB24 /* MatchedGeometryEffectSampleApp.entitlements */,
-				B236A9642C893DCC003FAB24 /* Preview Content */,
-			);
-			path = MatchedGeometryEffectSampleApp;
-			sourceTree = "<group>";
-		};
-		B236A9642C893DCC003FAB24 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				B236A9652C893DCC003FAB24 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B236A9592C893DCB003FAB24 /* MatchedGeometryEffectSampleApp */ = {
+		B236A9592C893DCB003FAB24 /* StarGeometryEffect */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B236A9692C893DCC003FAB24 /* Build configuration list for PBXNativeTarget "MatchedGeometryEffectSampleApp" */;
+			buildConfigurationList = B236A9692C893DCC003FAB24 /* Build configuration list for PBXNativeTarget "StarGeometryEffect" */;
 			buildPhases = (
 				B236A9562C893DCB003FAB24 /* Sources */,
 				B236A9572C893DCB003FAB24 /* Frameworks */,
@@ -84,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = MatchedGeometryEffectSampleApp;
+			name = StarGeometryEffect;
 			productName = MatchedGeometryEffectSampleApp;
-			productReference = B236A95A2C893DCB003FAB24 /* MatchedGeometryEffectSampleApp.app */;
+			productReference = B236A95A2C893DCB003FAB24 /* StarGeometryEffect.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B236A9552C893DCB003FAB24 /* Build configuration list for PBXProject "MatchedGeometryEffectSampleApp" */;
+			buildConfigurationList = B236A9552C893DCB003FAB24 /* Build configuration list for PBXProject "StarGeometryEffect" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B236A9592C893DCB003FAB24 /* MatchedGeometryEffectSampleApp */,
+				B236A9592C893DCB003FAB24 /* StarGeometryEffect */,
 			);
 		};
 /* End PBXProject section */
@@ -127,8 +136,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B236A9662C893DCC003FAB24 /* Preview Assets.xcassets in Resources */,
-				B236A9622C893DCC003FAB24 /* Assets.xcassets in Resources */,
+				B228BC532C89700E00616C3D /* Preview Assets.xcassets in Resources */,
+				B228BC542C89700E00616C3D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B236A9602C893DCB003FAB24 /* ContentView.swift in Sources */,
-				B236A95E2C893DCB003FAB24 /* MatchedGeometryEffectSampleAppApp.swift in Sources */,
+				B228BC572C89700E00616C3D /* GoldStar.swift in Sources */,
+				B228BC562C89700E00616C3D /* StarFloatingButton.swift in Sources */,
+				B228BC552C89700E00616C3D /* ContentView.swift in Sources */,
+				B228BC582C89700E00616C3D /* StarGeometryEffectApp.swift in Sources */,
+				B228BC592C89700E00616C3D /* StarCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +304,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.michael.haviv.MatchedGeometryEffectSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -330,7 +343,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.michael.haviv.MatchedGeometryEffectSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -340,7 +354,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B236A9552C893DCB003FAB24 /* Build configuration list for PBXProject "MatchedGeometryEffectSampleApp" */ = {
+		B236A9552C893DCB003FAB24 /* Build configuration list for PBXProject "StarGeometryEffect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B236A9672C893DCC003FAB24 /* Debug */,
@@ -349,7 +363,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B236A9692C893DCC003FAB24 /* Build configuration list for PBXNativeTarget "MatchedGeometryEffectSampleApp" */ = {
+		B236A9692C893DCC003FAB24 /* Build configuration list for PBXNativeTarget "StarGeometryEffect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B236A96A2C893DCC003FAB24 /* Debug */,
